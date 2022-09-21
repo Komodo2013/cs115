@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="Lab2b create">
+      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week2/MageliteDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cs115.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cs115.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week2/InvoiceLinesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week2/PersonTest.java" afterDir="false" />
     </list>
-    <list id="86bc7bbf-2dce-4a30-8d9c-02c1b5256bfd" name="Changes by willi" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663774958352</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Lab2b create">
+      <created>1663777326151</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663777326151</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
