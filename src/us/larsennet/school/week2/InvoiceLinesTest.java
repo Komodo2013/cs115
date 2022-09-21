@@ -12,5 +12,11 @@
 
 package us.larsennet.school.week2;
 
-public class JUnitTesting {
+import org.junit.jupiter.api.Test;
+
+public class InvoiceLinesTest {
+    @Test
+    public void testPerson(){
+        Person p = new Person();
+    }
 }

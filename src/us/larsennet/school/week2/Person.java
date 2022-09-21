@@ -28,10 +28,22 @@ public class Person {
 		this.birthDate = LocalDate.parse("1900-01-01");
 	}
 
-	public Person(String n, String g, String p, String dob) {
-	 this.name = n;
-	 this.gender = g;
-	 this.phone = p;
+	/**
+	 * <h1>Person Constructor</h1>
+	 * Creates a new person from validated string input
+	 * <p>
+	 * <b>Note:</b> Only accepts validated string
+	 *
+	 * @version 1.0
+	 * @Param name - Name of the person
+	 * @Param gender - String gender of the person
+	 * @Param phone - String phone number
+	 * @Param dob - Date in ISO format (yyyy-mm-dd)
+	 */
+	public Person(String name, String gender, String phone, String dob) {
+	 this.name = name;
+	 this.gender = gender;
+	 this.phone = phone;
 	 // Since dob will always be in ISO format "yyyy-mm-dd" we can just use standard parse without format
 	 this.birthDate = LocalDate.parse(dob);
  }
