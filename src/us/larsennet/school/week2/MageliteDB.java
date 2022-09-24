@@ -9,4 +9,8 @@ public class MageliteDB {
     public MageliteDB(){
 
     }
+
+    public ArrayList getDB() {
+        return DB;
+    }
 }

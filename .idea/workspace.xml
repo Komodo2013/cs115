@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="Lab2b create">
-      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week2/MageliteDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="magelitedb">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +41,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "last_opened_file_path": "C:/Users/jacob/IdeaProjects/cs115"
+    "last_opened_file_path": "C:/Users/jacob/IdeaProjects/cs115",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -124,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663777326151</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="magelitedb">
+      <created>1663779243774</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663779243774</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +149,7 @@
     <MESSAGE value="cs115 upload" />
     <MESSAGE value="Lab2a" />
     <MESSAGE value="Lab2b create" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab2b create" />
+    <MESSAGE value="magelitedb" />
+    <option name="LAST_COMMIT_MESSAGE" value="magelitedb" />
   </component>
 </project>
