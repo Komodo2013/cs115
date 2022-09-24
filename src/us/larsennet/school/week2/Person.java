@@ -34,7 +34,6 @@ public class Person {
 	 * <p>
 	 * <b>Note:</b> Only accepts validated string
 	 *
-	 * @version 1.0
 	 * @Param name - Name of the person
 	 * @Param gender - String gender of the person
 	 * @Param phone - String phone number
@@ -47,6 +46,10 @@ public class Person {
 	 // Since dob will always be in ISO format "yyyy-mm-dd" we can just use standard parse without format
 	 this.birthDate = LocalDate.parse(dob);
  }
+
+ 	public String toString(){
+		return this.name + "\t" + this.gender + "\t" + this.phone + "\t" + this.birthDate.toString();
+	}
 
 	public void setName(String name) {
 		this.name = name;

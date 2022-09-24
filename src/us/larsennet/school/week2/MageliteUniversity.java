@@ -8,7 +8,7 @@ public class MageliteUniversity {
         String source = "in/data.txt";
         String deliminator = "\t";
 
-        ArrayList<String[]> db = null;
+        ArrayList<Person> db = null;
 
         try {
             db = new MageliteDB(source, deliminator).getDB();
@@ -17,7 +17,7 @@ public class MageliteUniversity {
             System.exit(404);
         }
 
-        db.forEach(x -> System.out.println(String.join(" ", x)));
+        db.forEach(x -> System.out.println(x.toString()));
 
     }
 }

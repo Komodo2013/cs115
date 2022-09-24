@@ -7,18 +7,20 @@ import java.util.Scanner;
 
 public class MageliteDB {
 
-    private final ArrayList<String[]> DB = new ArrayList<>();
+    private final ArrayList<Person> DB = new ArrayList<>();
 
     public MageliteDB(String source, String deliminator) throws FileNotFoundException {
         File tsv = new File(source);
         Scanner sc = new Scanner(tsv);
 
         while(sc.hasNextLine()) {
-            this.DB.add(sc.nextLine().split(deliminator));
+            String[] entry = sc.nextLine().split(deliminator);
+            this.DB.add(new Person(entry[0], entry[2], entry[3], entry[1]));
         }
+
     }
 
-    public ArrayList<String[]> getDB() {
+    public ArrayList<Person> getDB() {
         return DB;
     }
 }
