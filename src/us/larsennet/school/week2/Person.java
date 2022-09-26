@@ -51,7 +51,8 @@ public class Person {
  }
 
  	public String toString(){
-		return this.name + "\t" + getAge() + "\t" + this.gender + "\t" + this.phone;
+		return String.format("%-23s\t%-12s\t%-12s\t%-12s", this.name, this.getAge(), this.gender, this.phone);
+
 	}
 
 

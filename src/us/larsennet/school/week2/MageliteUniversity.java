@@ -17,11 +17,8 @@ public class MageliteUniversity {
             System.exit(404);
         }
 
-        // TODO: Find the age of the people
-        // TODO: print in a nice table - change date to age and print age before gender
-
-        System.out.printf("%23s\t%12s\t%12s\t%12s", "Name", "Age", "Gender", "Phone Number");
-        System.out.println("---------------------------------");
+        System.out.printf("%-23s\t%-12s\t%-12s\t%-12s\n", "Name", "Age", "Gender", "Phone Number");
+        System.out.println("--------------------------------------------------------------------------------------");
 
         db.forEach(x -> System.out.println(x.toString()));
 

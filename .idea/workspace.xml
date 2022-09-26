@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="magelitedb" />
-    <list id="96c5a35c-0e60-4259-9f84-472c2756cafb" name="Changes by willi" comment="">
+    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="magelitedb">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week2/MageliteUniversity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week2/MageliteUniversity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week2/Person.java" afterDir="false" />
     </list>
+    <list id="96c5a35c-0e60-4259-9f84-472c2756cafb" name="Changes by willi" comment="Changes by willi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +185,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664216625909</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Changes by willi">
+      <created>1664216848513</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664216848513</updated>
+    </task>
+    <task id="LOCAL-00014" summary="magelitedb">
+      <created>1664216873180</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664216873180</updated>
+    </task>
+    <task id="LOCAL-00015" summary="magelitedb">
+      <created>1664216890401</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664216890401</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +228,7 @@
     <MESSAGE value="cs115 upload" />
     <MESSAGE value="Lab2a" />
     <MESSAGE value="Lab2b create" />
+    <MESSAGE value="Changes by willi" />
     <MESSAGE value="magelitedb" />
     <option name="LAST_COMMIT_MESSAGE" value="magelitedb" />
   </component>
