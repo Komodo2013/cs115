@@ -14,6 +14,9 @@
 package us.larsennet.school.week2;
 
 import java.time.LocalDate;
+import java.time.Period;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Person {
 	private String name;
@@ -44,11 +47,28 @@ public class Person {
 	 this.gender = gender;
 	 this.phone = phone;
 	 // Since dob will always be in ISO format "yyyy-mm-dd" we can just use standard parse without format
-	 this.birthDate = LocalDate.parse(dob);
+	 this.setBirthDate(dob);
  }
 
  	public String toString(){
-		return this.name + "\t" + this.gender + "\t" + this.phone + "\t" + this.birthDate.toString();
+		return this.name + "\t" + getAge() + "\t" + this.gender + "\t" + this.phone;
+	}
+
+
+	public static String rightPadding(String name, String getAge, String gender, String phone) {
+
+		return String.format("%-23s %-12s %-12s %-12s", name, getAge, gender, phone);
+	}
+
+
+	public int getAge() {
+		LocalDate curDate = LocalDate.now();
+		if ((this.birthDate != null) && (curDate != null)) {
+			return Period.between(this.birthDate, curDate).getYears();
+		}
+		else {
+			return 0;
+		}
 	}
 
 	public void setName(String name) {
@@ -64,8 +84,16 @@ public class Person {
 	}
 
 	// Since dob will always be in ISO format "yyyy-mm-dd" we can just use standard parse without format
-	public void setBirthDate(String dob) {
-		this.birthDate = LocalDate.parse(dob);
+	public void setBirthDate(String dob){
+		Pattern p = Pattern.compile("\\d{4}-\\d{2}-\\d{2}");
+		Matcher m = p.matcher(dob);
+		boolean found = m.find();
+
+		if(!found) {
+			this.birthDate = LocalDate.parse("1000-01-01");
+		} else {
+			this.birthDate = LocalDate.parse(m.group());
+		}
 	}
 
 	public String getName() {
