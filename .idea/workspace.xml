@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="magelitedb">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week2/MageliteUniversity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week2/MageliteUniversity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week2/Person.java" afterDir="false" />
-    </list>
+    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="magelitedb" />
     <list id="96c5a35c-0e60-4259-9f84-472c2756cafb" name="Changes by willi" comment="">
       <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week2/Person.java" afterDir="false" />
     </list>
@@ -23,18 +19,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/us/larsennet/school/week2/Person.java">
-      <ranges>
-        <range start1="16" end1="16" start2="16" end2="19" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
-        <range start1="46" end1="47" start2="49" end2="50" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
-        <range start1="50" end1="51" start2="53" end2="54" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
-        <range start1="52" end1="52" start2="55" end2="72" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
-        <range start1="66" end1="68" start2="86" end2="96" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
-        <range start1="85" end1="85" start2="113" end2="114" changelist="96c5a35c-0e60-4259-9f84-472c2756cafb" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,8 +44,8 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "last_opened_file_path": "C:/Users/jacob/IdeaProjects/cs115",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -192,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664034978180</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="magelitedb">
+      <created>1664216625909</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664216625909</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
