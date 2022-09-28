@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="DessertShop">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/SundaeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/SundaeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/IceCreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/IceCreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
       <recent name="us.larsennet.school.week3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SundaeTest">
+  <component name="RunManager" selected="JUnit.IceCreamTest">
     <configuration name="MageliteUniversity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="us.larsennet.school.week2.MageliteUniversity" />
       <module name="cs115" />
@@ -90,6 +87,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="us.larsennet.school.week3" />
       <option name="MAIN_CLASS_NAME" value="us.larsennet.school.week3.DessertItemTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IceCreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cs115" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="us.larsennet.school.week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="us.larsennet.school.week3" />
+      <option name="MAIN_CLASS_NAME" value="us.larsennet.school.week3.IceCreamTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,6 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IceCreamTest" />
         <item itemvalue="JUnit.SundaeTest" />
         <item itemvalue="JUnit.DessertItemTest" />
         <item itemvalue="JUnit.PersonTest" />
@@ -276,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664388567996</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="DessertShop">
+      <created>1664392189825</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1664392189825</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
