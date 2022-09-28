@@ -5,11 +5,12 @@ public class Sundae extends IceCream{
 
     public Sundae(String name, int scoops, double pricePerScoop, String topping) {
         super(name, scoops, pricePerScoop);
-        this.topping = topping;
+        this.setTopping(topping);
     }
 
     public Sundae() {
-        this.topping = topping;
+        super();
+        this.topping = "none";
     }
 
     public String getTopping() {
@@ -17,6 +18,7 @@ public class Sundae extends IceCream{
     }
 
     public void setTopping(String topping) {
-        this.topping = (topping.strip().toLowerCase());
+        String s = topping.strip().toLowerCase();
+        this.topping = (s.equals("") ? "none" : s);
     }
 }

@@ -6,8 +6,8 @@ public class IceCream extends DessertItem{
 
     public IceCream(String name, int scoops, double pricePerScoop) {
         super(name);
-        this.scoops = scoops;
-        this.pricePerScoop = pricePerScoop;
+        this.setScoops(scoops);
+        this.setPricePerScoop(pricePerScoop);
     }
 
     public IceCream() {
