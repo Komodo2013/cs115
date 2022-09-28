@@ -7,10 +7,18 @@ import static org.junit.jupiter.api.Assertions.*;
 class SundaeTest {
 
     @Test
-    void getTopping() {
+    void setTopping() {
+        Sundae t = new Sundae();
+        t.setTopping("Testing");
+        assertEquals("testing", t.getTopping());
+
+        t.setTopping(" ");
+        assertEquals("none", t.getTopping());
     }
 
     @Test
-    void setTopping() {
+    void getTopping() {
+        Sundae t = new Sundae("", 0, 0, "Testing");
+        assertEquals(t.getTopping(), "testing");
     }
 }
