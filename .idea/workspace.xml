@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="magelitedb">
+      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Candy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Cookie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/IceCream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Sundae.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week2/MageliteUniversity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week2/MageliteUniversity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week2/Person.java" afterDir="false" />
     </list>
-    <list id="96c5a35c-0e60-4259-9f84-472c2756cafb" name="Changes by willi" comment="Changes by willi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -44,6 +50,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "last_opened_file_path": "C:/Users/jacob/IdeaProjects/cs115",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -52,11 +61,17 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="us.larsennet.school.week2" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="us.larsennet.school.week3" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MageliteUniversity">
+  <component name="RunManager" selected="JUnit.PersonTest">
     <configuration name="MageliteUniversity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="us.larsennet.school.week2.MageliteUniversity" />
       <module name="cs115" />
@@ -87,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MageliteUniversity" />
         <item itemvalue="JUnit.PersonTest" />
+        <item itemvalue="Application.MageliteUniversity" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664216890401</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="magelitedb">
+      <created>1664217208204</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664217208204</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
