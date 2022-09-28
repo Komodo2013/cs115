@@ -13,8 +13,8 @@ public class Candy {
             return pricePerLb;
         }
 
-        public void setcandyweight(int scoops) {
-            this.candyweight = ((scoops < 0) ? 0 : scoops);
+        public void setcandyweight(int weight) {
+            this.candyweight = ((weight < 0) ? 0 : weight);
         }
 
         public void setPricePerLb(double pricePerLb) {
