@@ -1,3 +1,15 @@
+/*
+ *File:lab3a
+ * Description:
+ * Lessons Learned:
+ *   Classes
+ *   Sub-Classes
+ * Instructor's Name: Barbara Chamberlin
+ *
+ * @author: William Spencer, Jacob Larsen, Oshane Stewart
+ * since: 9/28/2022
+ */
+
 package us.larsennet.school.week3;
 
 public class IceCream extends DessertItem{
