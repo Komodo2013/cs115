@@ -1,10 +1,10 @@
 package us.larsennet.school.week3;
 
 public class Candy extends DessertItem{
-    private int candyweight;
+    private float candyweight;
     private double pricePerLb;
 
-    public int getCandyweight() {
+    public float getCandyweight() {
         return candyweight;
     }
 
@@ -12,7 +12,7 @@ public class Candy extends DessertItem{
         return pricePerLb;
     }
 
-    public void setcandyweight(int weight) {
+    public void setcandyweight(float weight) {
         this.candyweight = ((weight < 0) ? 0 : weight);
     }
 
