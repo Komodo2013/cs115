@@ -1,3 +1,15 @@
+//**
+//*File:lab2a
+//* Description:
+//Lessons Learned:
+//* Construct 1
+//* Construct 2
+//* Instructor's Name: Barbara Chamberlin
+//*
+//@author: William Spencer, Jacob Larsen
+//* since: 9/21/2022
+//*/
+
 package us.larsennet.school.week3;
 
 //Dessert Item
