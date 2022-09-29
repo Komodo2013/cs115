@@ -24,8 +24,8 @@ public class Cookie extends DessertItem{
         return pricePerCookie;
     }
 
-    public void setcookieQty(int scoops) {
-        this.cookieQty = ((scoops < 0) ? 1 : scoops);
+    public void setCookieQty(int cookies) {
+        this.cookieQty = ((cookies < 0) ? 1 : cookies);
     }
 
     public void setPricePerCookie(double pricePerCookie) {
