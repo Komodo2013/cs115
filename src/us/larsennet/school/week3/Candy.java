@@ -1,19 +1,31 @@
 package us.larsennet.school.week3;
 
 public class Candy extends DessertItem{
-    private float candyweight;
+    private double candyWeight;
     private double pricePerLb;
 
-    public float getCandyweight() {
-        return candyweight;
+    public Candy(String name, double candyWeight, double pricePerLb) {
+        super(name);
+        this.setCandyWeight(candyWeight);
+        this.setPricePerLb(pricePerLb);
+    }
+
+    public Candy() {
+        super("Candy");
+        this.setCandyWeight(0.0);
+        this.setPricePerLb(0.0);
+    }
+
+    public double getCandyWeight() {
+        return candyWeight;
     }
 
     public double getPricePerLb() {
         return pricePerLb;
     }
 
-    public void setcandyweight(float weight) {
-        this.candyweight = ((weight < 0) ? 0 : weight);
+    public void setCandyWeight(double weight) {
+        this.candyWeight = ((weight < 0) ? 0 : weight);
     }
 
     public void setPricePerLb(double pricePerLb) {

@@ -2,27 +2,33 @@ package us.larsennet.school.week3;
 
 public class Cookie extends DessertItem{
     private int cookieQty;
-    private double pricePerDozen;
+    private double pricePerCookie;
 
     public Cookie() {
-        super("IceCream");
-        this.cookieQty = cookieQty = 0;
-        this.pricePerDozen = pricePerDozen = 9.99;
+        super("Cookie");
+        this.cookieQty = 0;
+        this.pricePerCookie = 9.99;
     }
 
-    public int getcookieQty() {
+    public Cookie(String name, int quantity, double pricePerCookie) {
+        super(name);
+        this.cookieQty = quantity;
+        this.pricePerCookie = pricePerCookie;
+    }
+
+    public int getCookieQty() {
         return cookieQty;
     }
 
-    public double getPricePerDozen() {
-        return pricePerDozen;
+    public double getPricePerCookie() {
+        return pricePerCookie;
     }
 
     public void setcookieQty(int scoops) {
         this.cookieQty = ((scoops < 0) ? 1 : scoops);
     }
 
-    public void setPricePerDozen(double pricePerDozen) {
-        this.pricePerDozen = ((pricePerDozen < 0) ? 0 : pricePerDozen);
+    public void setPricePerCookie(double pricePerCookie) {
+        this.pricePerCookie = ((pricePerCookie < 0) ? 0 : pricePerCookie);
     }
 }

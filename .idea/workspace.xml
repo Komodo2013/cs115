@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="DessertShop" />
+    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="DessertShop">
+      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/CandyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/CookieTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Candy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Cookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Cookie.java" afterDir="false" />
+    </list>
+    <list id="dcc28c92-bf21-44b5-b3a1-09718fcbd003" name="Changes by willi" comment="">
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Cookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Cookie.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +25,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/us/larsennet/school/week3/Cookie.java">
+      <ranges>
+        <range start1="4" end1="5" start2="4" end2="5" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="7" end1="10" start2="7" end2="10" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="12" end1="13" start2="12" end2="19" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="16" end1="18" start2="22" end2="24" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="20" end1="22" start2="26" end2="28" changelist="dcc28c92-bf21-44b5-b3a1-09718fcbd003" />
+        <range start1="24" end1="26" start2="30" end2="32" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,16 +81,18 @@
       <recent name="us.larsennet.school.week3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IceCreamTest">
-    <configuration name="MageliteUniversity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="us.larsennet.school.week2.MageliteUniversity" />
+  <component name="RunManager" selected="JUnit.CandyTest">
+    <configuration name="CandyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cs115" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="us.larsennet.school.week2.*" />
+          <option name="PATTERN" value="us.larsennet.school.week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="us.larsennet.school.week3" />
+      <option name="MAIN_CLASS_NAME" value="us.larsennet.school.week3.CandyTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CandyTest" />
         <item itemvalue="JUnit.IceCreamTest" />
         <item itemvalue="JUnit.SundaeTest" />
         <item itemvalue="JUnit.DessertItemTest" />
         <item itemvalue="JUnit.PersonTest" />
-        <item itemvalue="Application.MageliteUniversity" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664394740090</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="DessertShop">
+      <created>1664424191743</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1664424191743</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
