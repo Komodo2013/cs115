@@ -4,10 +4,6 @@
     <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="DessertShop">
       <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Sundae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Sundae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/SundaeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/SundaeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
