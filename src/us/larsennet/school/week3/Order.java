@@ -1,24 +1,34 @@
+/*
+ *File:lab3b
+ * Description: create order file
+ * Lessons Learned:
+ *   creating an object interfacing with other objects
+ * Instructor's Name: Barbara Chamberlin
+ *
+ * @author: William Spencer, Jacob Larsen, Oshane Stewart
+ * since: 10/03/2022
+ */
+
 package us.larsennet.school.week3;
 
 import java.util.ArrayList;
 
 public class Order {
-    //Attribute
-    ArrayList<DessertItem>order;
-    //Constructor
-    public Order(){
-        order = new ArrayList<>();
+    ArrayList<DessertItem> order;
+
+    public Order() {
+        this.order = new ArrayList<>();
     }
-    public ArrayList<DessertItem> getOrderList() {
+
+    public ArrayList<DessertItem> getOrder() {
         return order;
     }
-    public void add(DessertItem Product) {
-        order.add(Product);
 
+    public int itemCount(){
+        return order.size();
     }
 
-    public int itemCount() {
-        return(order.size());
-
+    public void addItem(DessertItem i){
+        order.add(i);
     }
 }

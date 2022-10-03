@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="DessertShop">
-      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Order.java" afterDir="false" />
+    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="Order">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664427360796</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Order">
+      <created>1664814895757</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1664814895757</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -365,6 +372,7 @@
     <MESSAGE value="magelitedb" />
     <MESSAGE value="Changes by willi" />
     <MESSAGE value="DessertShop" />
-    <option name="LAST_COMMIT_MESSAGE" value="DessertShop" />
+    <MESSAGE value="Order" />
+    <option name="LAST_COMMIT_MESSAGE" value="Order" />
   </component>
 </project>
