@@ -30,7 +30,7 @@ class SundaeTest {
 
     @Test
     void getTopping() {
-        Sundae t = new Sundae("", 0, 0, "Testing");
+        Sundae t = new Sundae("", 0, 0, "Testing", 0.0);
         assertEquals(t.getTopping(), "testing");
     }
 }

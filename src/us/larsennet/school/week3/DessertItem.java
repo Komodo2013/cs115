@@ -1,13 +1,12 @@
 /*
-*File:lab3a
-* Description:
+*File:lab3b
+* Description: create order file
 * Lessons Learned:
-*   Classes
-*   Sub-Classes
+*   creating an object interfacing with other objects
 * Instructor's Name: Barbara Chamberlin
 *
 * @author: William Spencer, Jacob Larsen, Oshane Stewart
-* since: 9/28/2022
+* since: 10/03/2022
 */
 
 package us.larsennet.school.week3;
