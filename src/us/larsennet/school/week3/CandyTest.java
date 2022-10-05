@@ -1,13 +1,12 @@
 /*
- *File:lab3a
+ *File:lab 4a and b
  * Description:
  * Lessons Learned:
- *   Classes
- *   Sub-Classes
+ *   overrides and UI
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 9/28/2022
+ * since: 5 Oct 2022
  */
 
 package us.larsennet.school.week3;
