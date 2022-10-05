@@ -20,6 +20,22 @@ public class Order {
         this.order = new ArrayList<>();
     }
 
+    public double getTax(){
+        double total = 0;
+        for(int i=0; i < this.order.size(); i++){
+            total =+ this.order.get(i).getTax();
+        }
+        return total;
+    }
+
+    public double getPrice(){
+        double total = 0;
+        for(int i=0; i < this.order.size(); i++){
+            total =+ this.order.get(i).getPrice();
+        }
+        return total;
+    }
+
     public ArrayList<DessertItem> getOrder() {
         return order;
     }

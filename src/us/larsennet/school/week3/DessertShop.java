@@ -77,23 +77,31 @@ public class DessertShop {
         o.getOrder().forEach(
                 I -> System.out.printf("%-25s \t$%-8.2f \t[Tax: $%.2f]", I.getName(), I.getPrice(), I.getTax())
         );
+        System.out.println("-----------------------------------------------");
+        System.out.printf("%-25s \t$%-8.2f \t[Tax: $%.2f]", "Order Subtotals:", o.getPrice(), o.getTax());
+        System.out.printf("%-25s \t$%-8.2f", "Order Total:", o.getPrice() + o.getTax());
+        System.out.printf("%-25s \t%d","Total items in order: ", o.getOrder().size() );
     }
 
+    // TODO: create this method. It will need to validate inputs and create the appropriate orderItem
     private static DessertItem userPromptSundae() {
 
         return new Sundae();
     }
 
+    // TODO: create this method. It will need to validate inputs and create the appropriate orderItem
     private static DessertItem userPromptIceCream() {
 
         return new IceCream();
     }
 
+    // TODO: create this method. It will need to validate inputs and create the appropriate orderItem
     private static DessertItem userPromptCookie() {
 
         return new Cookie();
     }
 
+    // TODO: create this method. It will need to validate inputs and create the appropriate orderItem
     private static DessertItem userPromptCandy() {
 
         return new Candy();
