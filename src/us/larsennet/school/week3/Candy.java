@@ -22,6 +22,11 @@ public class Candy extends DessertItem{
         this.setPricePerLb(pricePerLb);
     }
 
+    @Override
+    double getPrice() {
+        return candyWeight * pricePerLb;
+    }
+
     public Candy() {
         super("Candy");
         this.setCandyWeight(0.0);

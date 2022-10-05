@@ -14,9 +14,23 @@ package us.larsennet.school.week3;
 //Dessert Item
 //09/27/2022
 
-class DessertItem {
+abstract class DessertItem {
     //Attributes
     private String name;
+    private double taxRate = 0.0725;
+
+    abstract double getPrice();
+    public double getTax() {
+        return getPrice() * taxRate;
+    }
+
+    public void setTaxRate(double taxRate){
+        this.taxRate = taxRate;
+    }
+
+    public double getTaxRate(){
+        return taxRate;
+    }
 
     //Constructors
     public DessertItem(String name) {

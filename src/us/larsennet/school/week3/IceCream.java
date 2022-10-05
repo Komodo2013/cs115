@@ -22,6 +22,11 @@ public class IceCream extends DessertItem{
         this.setPricePerScoop(pricePerScoop);
     }
 
+    @Override
+    double getPrice() {
+        return scoops * pricePerScoop;
+    }
+
     public IceCream() {
         super("IceCream");
         this.scoops = scoops = 0;

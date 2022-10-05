@@ -11,6 +11,8 @@
 
 package us.larsennet.school.week3;
 
+import java.util.Scanner;
+
 public class DessertShop {
     public static void main(String[] args){
         Order o = new Order();
@@ -23,5 +25,77 @@ public class DessertShop {
 
         o.getOrder().forEach(t -> System.out.println(t.getName()));
         System.out.printf("\nTotal number of items in order: %d", o.itemCount());
+
+        Scanner sIn = new Scanner(System.in);
+        String choice;
+        DessertItem orderItem;
+
+
+
+        boolean done = false;
+        while (!done) {
+            System.out.println("\n1: Candy");
+            System.out.println("2: Cookie");
+            System.out.println("3: Ice Cream");
+            System.out.println("4: Sunday");
+
+            System.out.print("\nWhat would you like to add to the order? (1-4, Enter for done): ");
+            choice = sIn.nextLine();
+
+            if (choice.equals("")) {
+                done = true;
+            } else {
+                switch (choice) {
+                    case "1":
+                        orderItem = userPromptCandy();
+                        o.addItem(orderItem);
+                        System.out.printf("%n%s has been added to your order.%n",orderItem.getName());
+                        break;
+                    case "2":
+                        orderItem = userPromptCookie();
+                        o.addItem(orderItem);
+                        System.out.printf("%n%s has been added to your order.%n",orderItem.getName());
+                        break;
+                    case "3":
+                        orderItem = userPromptIceCream();
+                        o.addItem(orderItem);
+                        System.out.printf("%n%s has been added to your order.%n",orderItem.getName());
+                        break;
+                    case "4":
+                        orderItem = userPromptSundae();
+                        o.addItem(orderItem);
+                        System.out.printf("%n%s has been added to your order.%n",orderItem.getName());
+                        break;
+                    default:
+                        System.out.println("Invalid response:  Please enter a choice from the menu (1-4)");
+                        break;
+                }//end of switch (choice)
+            }//end of if (choice.equals(""))
+        }//end of while (!done)
+        System.out.println("\n");
+
+        o.getOrder().forEach(
+                I -> System.out.printf("%-25s \t$%-8.2f \t[Tax: $%.2f]", I.getName(), I.getPrice(), I.getTax())
+        );
+    }
+
+    private static DessertItem userPromptSundae() {
+
+        return new Sundae();
+    }
+
+    private static DessertItem userPromptIceCream() {
+
+        return new IceCream();
+    }
+
+    private static DessertItem userPromptCookie() {
+
+        return new Cookie();
+    }
+
+    private static DessertItem userPromptCandy() {
+
+        return new Candy();
     }
 }
