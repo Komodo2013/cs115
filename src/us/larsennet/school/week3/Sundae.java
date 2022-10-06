@@ -26,7 +26,9 @@ public class Sundae extends IceCream{
         this.topping = "none";
     }
 
-    //TODO: getPrice Override
+    public double getPrice(){
+        return super.getPrice() + toppingPrice;
+    }
 
     public String getTopping() {
         return topping;

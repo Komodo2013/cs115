@@ -14,7 +14,6 @@ package us.larsennet.school.week3;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-//TODO: update this file with all added functions
 class CookieTest {
 
     @Test
@@ -45,5 +44,11 @@ class CookieTest {
     void setPricePerCookie() {
         Cookie c = new Cookie("", 12, 22.7);
         assertEquals(22.7, c.getPricePerCookie());
+    }
+
+    @Test
+    void getPrice() {
+        Cookie t = new Cookie("", 3, .5);
+        assertEquals(1.5, t.getPrice());
     }
 }

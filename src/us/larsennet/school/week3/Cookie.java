@@ -15,6 +15,11 @@ public class Cookie extends DessertItem{
     private int cookieQty;
     private double pricePerCookie;
 
+    @Override
+    double getPrice() {
+        return cookieQty * pricePerCookie;
+    }
+
     public Cookie() {
         super("Cookie");
         this.cookieQty = 0;
@@ -26,8 +31,6 @@ public class Cookie extends DessertItem{
         this.cookieQty = quantity;
         this.pricePerCookie = pricePerCookie;
     }
-
-    //TODO: getPrice Override
 
     public int getCookieQty() {
         return cookieQty;

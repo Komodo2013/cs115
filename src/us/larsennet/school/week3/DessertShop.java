@@ -46,64 +46,113 @@ public class DessertShop {
                 done = true;
             } else {
                 switch (choice) {
-                    case "1":
+                    case "1" -> {
                         orderItem = userPromptCandy();
                         o.addItem(orderItem);
-                        System.out.printf("%n%s has been added to your order.%n",orderItem.getName());
-                        break;
-                    case "2":
+                        System.out.printf("%n%s has been added to your order.%n", orderItem.getName());
+                    }
+                    case "2" -> {
                         orderItem = userPromptCookie();
                         o.addItem(orderItem);
-                        System.out.printf("%n%s has been added to your order.%n",orderItem.getName());
-                        break;
-                    case "3":
+                        System.out.printf("%n%s has been added to your order.%n", orderItem.getName());
+                    }
+                    case "3" -> {
                         orderItem = userPromptIceCream();
                         o.addItem(orderItem);
-                        System.out.printf("%n%s has been added to your order.%n",orderItem.getName());
-                        break;
-                    case "4":
+                        System.out.printf("%n%s has been added to your order.%n", orderItem.getName());
+                    }
+                    case "4" -> {
                         orderItem = userPromptSundae();
                         o.addItem(orderItem);
-                        System.out.printf("%n%s has been added to your order.%n",orderItem.getName());
-                        break;
-                    default:
-                        System.out.println("Invalid response:  Please enter a choice from the menu (1-4)");
-                        break;
+                        System.out.printf("%n%s has been added to your order.%n", orderItem.getName());
+                    }
+                    default -> System.out.println("Invalid response:  Please enter a choice from the menu (1-4)");
                 }//end of switch (choice)
             }//end of if (choice.equals(""))
         }//end of while (!done)
         System.out.println("\n");
 
         o.getOrder().forEach(
-                I -> System.out.printf("%-25s \t$%-8.2f \t[Tax: $%.2f]", I.getName(), I.getPrice(), I.getTax())
+                I -> System.out.printf("%-25s \t$%-8.2f \t[Tax: $%.2f]\n", I.getName(), I.getPrice(), I.getTax())
         );
-        System.out.println("-----------------------------------------------");
-        System.out.printf("%-25s \t$%-8.2f \t[Tax: $%.2f]", "Order Subtotals:", o.getPrice(), o.getTax());
-        System.out.printf("%-25s \t$%-8.2f", "Order Total:", o.getPrice() + o.getTax());
-        System.out.printf("%-25s \t%d","Total items in order: ", o.getOrder().size() );
+        System.out.println("--------------------------------------------------------");
+        System.out.printf("%-25s \t$%-8.2f \t[Tax: $%.2f]\n", "Order Subtotals:", o.getPrice(), o.getTax());
+        System.out.printf("%-25s \t$%-8.2f\n", "Order Total:", o.getPrice() + o.getTax());
+        System.out.printf("%-25s \t%d\n","Total items in order: ", o.getOrder().size() );
     }
 
-    // TODO: create this method. It will need to validate inputs and create the appropriate orderItem
     private static DessertItem userPromptSundae() {
+        Scanner sc = new Scanner(System.in);
 
-        return new Sundae();
+        System.out.println("Please enter the number of Ice Cream scoops");
+        String name = getString(sc, "That is not a valid Ice Cream type");
+
+        System.out.println("Please enter the number of Ice Cream scoops");
+        int scoops = getValidInt(sc, "That is not a valid number of scoops");
+
+        System.out.println("Please enter the price per scoop");
+        double price = getValidDouble(sc, "That is not a valid price");
+
+        System.out.println("Please enter the topping type");
+        String topping = getString(sc, "That is not a valid topping");
+
+        System.out.println("Please enter the price per topping");
+        double toppingPrice = getValidDouble(sc, "That is not a valid price");
+
+        return new Sundae(name, scoops, price, topping, toppingPrice);
     }
 
-    // TODO: create this method. It will need to validate inputs and create the appropriate orderItem
     private static DessertItem userPromptIceCream() {
 
         return new IceCream();
     }
 
-    // TODO: create this method. It will need to validate inputs and create the appropriate orderItem
     private static DessertItem userPromptCookie() {
 
         return new Cookie();
     }
 
-    // TODO: create this method. It will need to validate inputs and create the appropriate orderItem
     private static DessertItem userPromptCandy() {
 
         return new Candy();
+    }
+
+    private static int getValidInt(Scanner sc, String prompt){
+        while(true) {
+            try{
+                int in = Integer.parseInt(sc.nextLine());
+                if(in > 0) {
+                    return in;
+                }
+                System.out.println(prompt);
+            } catch(Exception e) {
+                System.out.println(prompt);
+            }
+        }
+    }
+
+    private static double getValidDouble(Scanner sc, String prompt) {
+        while(true) {
+            try{
+                double in = Double.parseDouble(sc.nextLine());
+                if(in > 0) {
+                    return in;
+                }
+                System.out.println(prompt);
+            } catch(Exception e) {
+                System.out.println(prompt);
+            }
+        }
+    }
+
+    private static String getString(Scanner sc, String prompt) {
+        while (true) {
+            String in = sc.nextLine();
+            if(!in.equals("")){
+                return in;
+            } else {
+                System.out.println(prompt);
+            }
+        }
     }
 }

@@ -14,7 +14,6 @@ package us.larsennet.school.week3;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-//TODO: update this file with all added functions
 class SundaeTest {
 
     @Test
@@ -31,5 +30,24 @@ class SundaeTest {
     void getTopping() {
         Sundae t = new Sundae("", 0, 0, "Testing", 0.0);
         assertEquals(t.getTopping(), "testing");
+    }
+
+    @Test
+    void setToppingPrice() {
+        Sundae t = new Sundae();
+        t.setToppingPrice(0.32);
+        assertEquals(0.32, t.getToppingPrice());
+    }
+
+    @Test
+    void getToppingPrice() {
+        Sundae t = new Sundae("", 0, 0, "Testing", 0.0);
+        assertEquals(0.0, t.getToppingPrice());
+    }
+
+    @Test
+    void getPrice() {
+        Sundae t = new Sundae("", 3, .5, "Testing", 0.25);
+        assertEquals(1.75, t.getPrice());
     }
 }

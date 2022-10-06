@@ -14,11 +14,10 @@ package us.larsennet.school.week3;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-//TODO: update this file with all added functions
 class CandyTest {
 
     @Test
-    void setCandyweight() {
+    void setCandyWeight() {
         Candy s = new Candy();
         s.setCandyWeight(7);
         assertEquals(7, s.getCandyWeight());
@@ -46,5 +45,11 @@ class CandyTest {
     void getPricePerLb() {
         Candy s = new Candy("", 7, 10.99);
         assertEquals(10.99, s.getPricePerLb());
+    }
+
+    @Test
+    void getPrice() {
+        Candy t = new Candy("", 1.2, .5);
+        assertEquals(0.6, t.getPrice());
     }
 }

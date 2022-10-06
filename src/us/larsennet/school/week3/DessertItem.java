@@ -11,8 +11,6 @@
 
 package us.larsennet.school.week3;
 
-//Dessert Item
-//09/27/2022
 
 abstract class DessertItem {
     //Attributes

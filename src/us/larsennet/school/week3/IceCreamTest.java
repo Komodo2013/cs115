@@ -14,7 +14,6 @@ package us.larsennet.school.week3;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-//TODO: update this file with all added functions
 class IceCreamTest {
 
     @Test
@@ -47,5 +46,11 @@ class IceCreamTest {
     void getPricePerScoop() {
         IceCream t = new IceCream("", 5, 4.99);
         assertEquals(4.99, t.getPricePerScoop());
+    }
+
+    @Test
+    void getPrice() {
+        IceCream t = new IceCream("", 3, .5);
+        assertEquals(1.5, t.getPrice());
     }
 }
