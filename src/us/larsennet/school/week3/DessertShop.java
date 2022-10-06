@@ -103,18 +103,48 @@ public class DessertShop {
     }
 
     private static DessertItem userPromptIceCream() {
+        Scanner sc = new Scanner(System.in);
 
-        return new IceCream();
+        System.out.println("Please enter the number of Ice Cream scoops");
+        String name = getString(sc, "That is not a valid Ice Cream type");
+
+        System.out.println("Please enter the number of Ice Cream scoops");
+        int scoops = getValidInt(sc, "That is not a valid number of scoops");
+
+        System.out.println("Please enter the price per scoop");
+        double price = getValidDouble(sc, "That is not a valid price");
+
+        return new IceCream(name, scoops, price);
     }
 
     private static DessertItem userPromptCookie() {
+        Scanner sc = new Scanner(System.in);
 
-        return new Cookie();
+        System.out.println("Please enter the number of Cookies");
+        int cookieQty = getValidInt(sc, "That is not a valid number of cookies");
+
+        System.out.println("Please enter the price per Cookie");
+        double price = getValidDouble(sc, "That is not a valid price");
+
+        System.out.println("Please ender the name of the Cookie Type");
+        String name = getString(sc, "That is not a valid name of a Candy Type");
+
+        return new Cookie(name, cookieQty, price);
     }
 
     private static DessertItem userPromptCandy() {
+        Scanner sc = new Scanner(System.in);
 
-        return new Candy();
+        System.out.println("Please enter the number of Candies");
+        double candyWeight = getValidInt(sc, "That is not a valid Candy Weight");
+
+        System.out.println("Please enter the price per pound");
+        double price = getValidDouble(sc, "That is not a valid price");
+
+        System.out.println("Please ender the name of the Candy Type");
+        String name = getString(sc, "That is not a valid name of a Candy Type");
+
+        return new Candy(name, candyWeight, price);
     }
 
     private static int getValidInt(Scanner sc, String prompt){

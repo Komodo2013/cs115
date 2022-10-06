@@ -10,7 +10,11 @@
  */
 
 package us.larsennet.school.week3;
-//TODO: update this file with all added functions
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class OrderTest {
     @Test
     void getPrice() {
