@@ -46,6 +46,14 @@ abstract class DessertItem {
     }
 
     public String getName() {
-        return name;
+
+        String[] parts = name.split(" ");
+        String proper = "";
+
+        for (String part : parts) {
+            proper += part.toUpperCase().charAt(0) + part.substring(1) + " ";
+        }
+
+        return proper;
     }
 }

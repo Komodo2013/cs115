@@ -52,6 +52,6 @@ public class Sundae extends IceCream{
     }
 
     public String getName(){
-        return super.getName() + " with " + getTopping();
+        return super.getName() + " with " + topping.toUpperCase().charAt(0) + topping.substring(1);
     }
 }

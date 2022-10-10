@@ -21,6 +21,12 @@ public class Candy extends DessertItem{
         this.setPricePerLb(pricePerLb);
     }
 
+    public String toString(){
+        return String.format("%s\n\t%-45s$%3.2f\t[Tax: $%2.2f]", this.getName(),
+                String.format("%2.2f lbs @ $%1.2f / lbs", this.getCandyWeight(), this.getPricePerLb()),
+                this.getPrice(), this.getTax());
+    }
+
     @Override
     double getPrice() {
         return candyWeight * pricePerLb;
@@ -32,7 +38,7 @@ public class Candy extends DessertItem{
         this.setPricePerLb(0.0);
     }
 
-    public double getCandyWeight() {
+        public double getCandyWeight() {
         return candyWeight;
     }
 
