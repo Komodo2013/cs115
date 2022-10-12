@@ -2,13 +2,13 @@ package us.larsennet.school.lab4i;
 
 public class Residential extends Property{
     private int bedCount;
-    private double batchCount;
+    private double bathCount;
     private int sqFootage;
 
-    public Residential(String streetAddress, String zip, int bedCount, double batchCount, int sqFootage) {
+    public Residential(String streetAddress, String zip, int bedCount, double bathCount, int sqFootage) {
         super(streetAddress, zip);
         setBedCount(bedCount);
-        setBatchCount(batchCount);
+        setBathCount(bathCount);
         setSqFootage(sqFootage);
     }
 
@@ -23,12 +23,12 @@ public class Residential extends Property{
         this.bedCount = bedCount;
     }
 
-    public double getBatchCount() {
-        return batchCount;
+    public double getBathCount() {
+        return bathCount;
     }
 
-    public void setBatchCount(double batchCount) {
-        this.batchCount = batchCount;
+    public void setBathCount(double bathCount) {
+        this.bathCount = bathCount;
     }
 
     public int getSqFootage() {
