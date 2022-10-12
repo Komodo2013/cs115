@@ -1,12 +1,12 @@
 /*
- *File:lab 4a and b
+ *File:lab 5a
  * Description:
  * Lessons Learned:
  *   overrides and UI
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 5 Oct 2022
+ * @since: 12 Oct 2022
  */
 
 package us.larsennet.school.week3;
@@ -54,6 +54,6 @@ abstract class DessertItem {
             proper += part.toUpperCase().charAt(0) + part.substring(1) + " ";
         }
 
-        return proper;
+        return proper.strip();
     }
 }

@@ -1,12 +1,12 @@
 /*
- *File:lab 4a and b
+ *File:lab 5a
  * Description:
  * Lessons Learned:
  *   overrides and UI
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 5 Oct 2022
+ * @since: 12 Oct 2022
  */
 
 package us.larsennet.school.week3;
@@ -23,7 +23,7 @@ public class Candy extends DessertItem{
 
     public String toString(){
         return String.format("%s\n\t%-45s$%3.2f\t[Tax: $%2.2f]", this.getName(),
-                String.format("%2.2f lbs @ $%1.2f / lbs", this.getCandyWeight(), this.getPricePerLb()),
+                String.format("%2.2f lbs @ $%3.2f/lbs", this.getCandyWeight(), this.getPricePerLb()),
                 this.getPrice(), this.getTax());
     }
 

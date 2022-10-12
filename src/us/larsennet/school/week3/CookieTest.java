@@ -22,7 +22,7 @@ class CookieTest {
         c.setCookieQty(12);
         assertEquals(12, c.getCookieQty());
         c.setCookieQty(-12);
-        assertEquals(0, c.getCookieQty());
+        assertEquals(1, c.getCookieQty());
     }
 
     @Test

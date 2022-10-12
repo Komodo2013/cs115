@@ -1,12 +1,12 @@
 /*
- *File:lab 4a and b
+ *File:lab 5a
  * Description:
  * Lessons Learned:
  *   overrides and UI
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 5 Oct 2022
+ * @since: 12 Oct 2022
  */
 
 package us.larsennet.school.week3;
@@ -20,18 +20,36 @@ public class Order {
         this.order = new ArrayList<>();
     }
 
+    public String toString(){
+        String out = "--------------------------------Receipt--------------------------------\n";
+
+        for (DessertItem item : order) {
+            out += item.toString() + "\n";
+        }
+
+        out += "-----------------------------------------------------------------------\n";
+
+        out += String.format("Total number of items in order: %d\n", order.size());
+        out += String.format("%-49s$%3.2f\t[Tax: $%2.2f]\n", "Order Subtotals: ", getPrice(), getTax());
+        out += String.format("%-49s$%3.2f\n", "Order Total: ", getPrice() + getTax());
+
+        out += "-----------------------------------------------------------------------\n";
+
+        return out;
+    }
+
     public double getTax(){
         double total = 0;
-        for(int i=0; i < this.order.size(); i++){
-            total =+ this.order.get(i).getTax();
+        for (DessertItem item : order) {
+            total += item.getTax();
         }
         return total;
     }
 
     public double getPrice(){
         double total = 0;
-        for(int i=0; i < this.order.size(); i++){
-            total =+ this.order.get(i).getPrice();
+        for (DessertItem item : order) {
+            total += item.getPrice();
         }
         return total;
     }

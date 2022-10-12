@@ -20,14 +20,15 @@ public class OrderTest {
     void getPrice() {
         Order o = new Order();
         o.addItem(new Cookie("Testing", 3, 4.00));
-        assertEquals(2, o.itemCount());
+        assertEquals(12.00, o.getPrice());
     }
 
     @Test
     void setTax() {
         Order o = new Order();
         o.addItem(new IceCream("Testing", 2, 3.50));
-        assertEquals(2, o.itemCount());
+        o.getOrder().get(0).setTaxRate(.1);
+        assertEquals(2*3.5*.1, o.getTax());
     }
 
     @Test

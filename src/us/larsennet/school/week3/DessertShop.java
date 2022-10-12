@@ -1,36 +1,34 @@
 /*
- *File:lab 4a and b
+ *File:lab 5a
  * Description:
  * Lessons Learned:
  *   overrides and UI
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 5 Oct 2022
+ * @since: 12 Oct 2022
  */
 
 package us.larsennet.school.week3;
 
-import java.util.Date;
 import java.util.Scanner;
 
 public class DessertShop {
     public static void main(String[] args){
         Order o = new Order();
+
+        /*
         o.addItem(new Candy("Candy Corn", 1.0, 3.99));
         o.addItem(new Candy("Gummy Bears", 1.0, 2.99));
         o.addItem(new Cookie("Chocolate Chip", 12, 2.20));
         o.addItem(new Cookie("Oatmeal Raisin", 2, 3.25));
         o.addItem(new Sundae("Vanilla", 3, .69,  "Hot Fudge", 1.29));
         o.addItem(new IceCream("Pistachio", 2, .79));
-
-        o.getOrder().forEach(t -> System.out.println(t.getName()));
-        System.out.printf("\nTotal number of items in order: %d", o.itemCount());
+        */
 
         Scanner sIn = new Scanner(System.in);
         String choice;
         DessertItem orderItem;
-
 
         boolean done = false;
         while (!done) {
@@ -110,7 +108,7 @@ public class DessertShop {
     private static DessertItem userPromptSundae() {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Please enter the number of Ice Cream scoops");
+        System.out.println("Please enter the name of the Ice Cream");
         String name = getString(sc, "That is not a valid Ice Cream type");
 
         System.out.println("Please enter the number of Ice Cream scoops");
@@ -131,7 +129,7 @@ public class DessertShop {
     private static DessertItem userPromptIceCream() {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Please enter the number of Ice Cream scoops");
+        System.out.println("Please enter the name of the Ice Cream");
         String name = getString(sc, "That is not a valid Ice Cream type");
 
         System.out.println("Please enter the number of Ice Cream scoops");
@@ -146,14 +144,14 @@ public class DessertShop {
     private static DessertItem userPromptCookie() {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Please enter the name of the Cookie Type");
+        String name = getString(sc, "That is not a valid name of a Candy Type");
+
         System.out.println("Please enter the number of Cookies");
         int cookieQty = getValidInt(sc, "That is not a valid number of cookies");
 
         System.out.println("Please enter the price per Cookie");
         double price = getValidDouble(sc, "That is not a valid price");
-
-        System.out.println("Please ender the name of the Cookie Type");
-        String name = getString(sc, "That is not a valid name of a Candy Type");
 
         return new Cookie(name, cookieQty, price);
     }
@@ -161,14 +159,15 @@ public class DessertShop {
     private static DessertItem userPromptCandy() {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Please enter the number of Candies");
-        double candyWeight = getValidInt(sc, "That is not a valid Candy Weight");
+        System.out.println("Please enter the name of the Candy Type");
+        String name = getString(sc, "That is not a valid name of a Candy Type");
+
+
+        System.out.println("Please enter the pounds of Candy");
+        double candyWeight = getValidDouble(sc, "That is not a valid Candy Weight");
 
         System.out.println("Please enter the price per pound");
         double price = getValidDouble(sc, "That is not a valid price");
-
-        System.out.println("Please ender the name of the Candy Type");
-        String name = getString(sc, "That is not a valid name of a Candy Type");
 
         return new Candy(name, candyWeight, price);
     }

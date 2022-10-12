@@ -20,7 +20,7 @@ class DessertItemTest {
     void setName() {
         DessertItem t = new Candy(); // candy used since DessertItem is abstract
         t.setName("Testing");
-        assertEquals("testing", t.getName());
+        assertEquals("Testing", t.getName());
 
         t.setName(" ");
         assertEquals("DessertItem", t.getName());
@@ -30,6 +30,6 @@ class DessertItemTest {
     void getName() {
         // candy used since DessertItem is abstract
         DessertItem t = new Candy("Testing", 1.0, 1.0);
-        assertEquals(t.getName(), "testing");
+        assertEquals(t.getName(), "Testing");
     }
 }
