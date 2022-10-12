@@ -21,6 +21,12 @@ public class IceCream extends DessertItem{
         this.setPricePerScoop(pricePerScoop);
     }
 
+    public String toString(){
+        return String.format("%s\n\t%-45s$%3.2f\t[Tax: $%2.2f]", this.getName(),
+                String.format("%4d @ $%3.2f", this.getScoops(), this.getPricePerScoop()),
+                this.getPrice(), this.getTax());
+    }
+
     @Override
     double getPrice() {
         return scoops * pricePerScoop;

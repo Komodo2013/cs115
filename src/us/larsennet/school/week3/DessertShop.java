@@ -69,41 +69,10 @@ public class DessertShop {
             }//end of if (choice.equals(""))
         }//end of while (!done)
 
-        o.getOrder().forEach(
-                I -> System.out.println(I.toString())
-        );
+        System.out.print(o.toString());
 
-        //TODO: toString and print dessertShop
-        // so we just need to add some pretty print commands... Which classes do you want to update with overriden toString() methods and w
-        // watch me just sit back and let you and Oshane die xD lol
-        // What do you want to take charge of for updating? also is Oshane there?
-        //yes he is, can I see a toString in action?!
-        /* Old print statement
-        System.out.println("\n");
-
-        o.getOrder().forEach(
-                I -> System.out.printf("%-25s \t$%-8.2f \t[Tax: $%.2f]\n", I.getName(), I.getPrice(), I.getTax())
-        );
-        System.out.println("--------------------------------------------------------");
-        System.out.printf("%-25s \t$%-8.2f \t[Tax: $%.2f]\n", "Order Subtotals:", o.getPrice(), o.getTax());
-        System.out.printf("%-25s \t$%-8.2f\n", "Order Total:", o.getPrice() + o.getTax());
-        System.out.printf("%-25s \t%d\n","Total items in order: ", o.getOrder().size() );
-        */
     }
 
-    public String toString(){
-        return this.toString();// Obviously this won't work... this just calls the super.toString() method...
-        // We have to add the code to make this work
-        // Do you really want me to spoil this for you guys xD
-        //I dont believe in santa anymore so my heart cant be broken by spoiling anything anymore
-        // Can it be broken if I let you figure it out? trick question the answer is no...
-        /* It'll look a lot like this::::
-        o.getOrder().forEach(
-                I -> System.out.printf("%-25s \t$%-8.2f \t[Tax: $%.2f]\n", I.getName(), I.getPrice(), I.getTax())
-        );
-        Just not a for each loop..... follow me to Candy
-        */
-    }
 
     private static DessertItem userPromptSundae() {
         Scanner sc = new Scanner(System.in);
