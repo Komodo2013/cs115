@@ -1,3 +1,14 @@
+/*
+ *File:lab 4i
+ * Description:
+ * Lessons Learned:
+ *   class structure
+ * Instructor's Name: Barbara Chamberlin
+ *
+ * @author: Jacob Larsen
+ * @since: 12 Oct 2022
+ */
+
 package us.larsennet.school.lab4i;
 
 public class House extends Residential {
