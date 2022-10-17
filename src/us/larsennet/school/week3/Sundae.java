@@ -1,12 +1,12 @@
 /*
- *File:lab 4a and b
- * Description:
+ *File:lab 5a
+ * Description: Interfaces
  * Lessons Learned:
- *   overrides and UI
+ *   Interfaces
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 5 Oct 2022
+ * since: 17 Oct 2022
  */
 
 package us.larsennet.school.week3;
@@ -19,11 +19,13 @@ public class Sundae extends IceCream{
         super(name, scoops, pricePerScoop);
         this.setTopping(topping);
         this.setToppingPrice(toppingPrice);
+        super.setPackaging("Boat");
     }
 
     public Sundae() {
         super();
         this.topping = "none";
+        super.setPackaging("Boat");
     }
 
     public double getPrice(){

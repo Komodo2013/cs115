@@ -2,16 +2,16 @@
  *File:lab 5a
  * Description:
  * Lessons Learned:
- *   overrides and UI
+ *   Interfaces
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * @since: 12 Oct 2022
+ * since: 17 Oct 2022
  */
 
 package us.larsennet.school.week3;
 
-public class Candy extends DessertItem{
+public class Candy extends DessertItem implements Packaging{
     private double candyWeight;
     private double pricePerLb;
 
@@ -19,6 +19,7 @@ public class Candy extends DessertItem{
         super(name);
         this.setCandyWeight(candyWeight);
         this.setPricePerLb(pricePerLb);
+        super.setPackaging("Bag");
     }
 
     public String toString(){
@@ -36,9 +37,11 @@ public class Candy extends DessertItem{
         super("Candy");
         this.setCandyWeight(0.0);
         this.setPricePerLb(0.0);
+        super.setPackaging("Bag");
+
     }
 
-        public double getCandyWeight() {
+    public double getCandyWeight() {
         return candyWeight;
     }
 

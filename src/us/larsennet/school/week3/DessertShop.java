@@ -2,11 +2,11 @@
  *File:lab 5a
  * Description:
  * Lessons Learned:
- *   overrides and UI
+ *   Interfaces
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * @since: 12 Oct 2022
+ * since: 17 Oct 2022
  */
 
 package us.larsennet.school.week3;
@@ -17,14 +17,13 @@ public class DessertShop {
     public static void main(String[] args){
         Order o = new Order();
 
-        /*
         o.addItem(new Candy("Candy Corn", 1.0, 3.99));
         o.addItem(new Candy("Gummy Bears", 1.0, 2.99));
         o.addItem(new Cookie("Chocolate Chip", 12, 2.20));
         o.addItem(new Cookie("Oatmeal Raisin", 2, 3.25));
         o.addItem(new Sundae("Vanilla", 3, .69,  "Hot Fudge", 1.29));
         o.addItem(new IceCream("Pistachio", 2, .79));
-        */
+
 
         Scanner sIn = new Scanner(System.in);
         String choice;

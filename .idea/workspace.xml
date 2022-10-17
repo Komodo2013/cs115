@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="Week 5">
-      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/lab4i/CondoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/lab4i/HouseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/lab4i/PropertyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/lab4i/ResidentialTest.java" afterDir="false" />
+    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="lab 4i">
+      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Packaging.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Candy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/CandyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/CandyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Cookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Cookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/CookieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/CookieTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/IceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/IceCream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Sundae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Sundae.java" afterDir="false" />
     </list>
-    <list id="e45ae13c-07b3-4852-9d5d-33bad500f81d" name="Changes by willi" comment="Changes by willi" />
+    <list id="daffc4d8-960d-44f2-8a27-559232389d2c" name="Changes by oshan" comment="" />
+    <list id="e45ae13c-07b3-4852-9d5d-33bad500f81d" name="Changes by willi" comment="Changes by willi">
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Candy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Cookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Cookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/CookieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/CookieTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/IceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/IceCream.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,14 +32,71 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItemTest.java">
+      <ranges>
+        <range start1="1" end1="2" start2="1" end2="2" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="4" end1="5" start2="4" end2="5" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="8" end1="9" start2="8" end2="9" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="34" end1="34" start2="34" end2="47" changelist="e45ae13c-07b3-4852-9d5d-33bad500f81d" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/us/larsennet/school/week3/IceCream.java">
+      <ranges>
+        <range start1="4" end1="5" start2="4" end2="5" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="8" end1="9" start2="8" end2="9" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="21" end1="21" start2="21" end2="23" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="24" end1="25" start2="26" end2="27" changelist="e45ae13c-07b3-4852-9d5d-33bad500f81d" />
+        <range start1="38" end1="38" start2="40" end2="41" changelist="e45ae13c-07b3-4852-9d5d-33bad500f81d" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java">
+      <ranges>
+        <range start1="4" end1="5" start2="4" end2="5" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="8" end1="9" start2="8" end2="9" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="19" end1="20" start2="19" end2="19" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="26" end1="27" start2="25" end2="26" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="32" end1="32" start2="31" end2="33" changelist="e45ae13c-07b3-4852-9d5d-33bad500f81d" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/us/larsennet/school/week3/Candy.java">
+      <ranges>
+        <range start1="4" end1="5" start2="4" end2="5" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="8" end1="9" start2="8" end2="9" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="13" end1="14" start2="13" end2="14" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="21" end1="21" start2="21" end2="22" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="24" end1="25" start2="25" end2="26" changelist="e45ae13c-07b3-4852-9d5d-33bad500f81d" />
+        <range start1="38" end1="38" start2="39" end2="41" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="40" end1="41" start2="43" end2="44" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/us/larsennet/school/week3/CookieTest.java">
+      <ranges>
+        <range start1="1" end1="2" start2="1" end2="2" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="4" end1="5" start2="4" end2="5" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="8" end1="9" start2="8" end2="9" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="53" end1="53" start2="53" end2="55" changelist="e45ae13c-07b3-4852-9d5d-33bad500f81d" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/us/larsennet/school/week3/Cookie.java">
+      <ranges>
+        <range start1="4" end1="5" start2="4" end2="5" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="8" end1="9" start2="8" end2="9" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="23" end1="24" start2="23" end2="24" changelist="e45ae13c-07b3-4852-9d5d-33bad500f81d" />
+        <range start1="26" end1="26" start2="26" end2="27" changelist="e45ae13c-07b3-4852-9d5d-33bad500f81d" />
+        <range start1="32" end1="32" start2="33" end2="34" changelist="e45ae13c-07b3-4852-9d5d-33bad500f81d" />
+        <range start1="38" end1="38" start2="40" end2="41" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -72,18 +144,16 @@
       <recent name="us.larsennet.school.week3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ResidentialTest">
-    <configuration name="CondoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DessertItemTest">
+    <configuration name="DessertShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="us.larsennet.school.week3.DessertShop" />
       <module name="cs115" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="us.larsennet.school.lab4i.*" />
+          <option name="PATTERN" value="us.larsennet.school.week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="us.larsennet.school.lab4i" />
-      <option name="MAIN_CLASS_NAME" value="us.larsennet.school.lab4i.CondoTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DessertItemTest" />
+        <item itemvalue="Application.DessertShop" />
         <item itemvalue="JUnit.ResidentialTest" />
         <item itemvalue="JUnit.PropertyTest" />
         <item itemvalue="JUnit.HouseTest" />
-        <item itemvalue="JUnit.CondoTest" />
-        <item itemvalue="JUnit.DessertItemTest" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +482,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665594164212</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="lab 4i">
+      <created>1665595211996</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1665595211996</updated>
+    </task>
+    <task id="LOCAL-00037" summary="lab 4i">
+      <created>1665595367413</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1665595367413</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -442,6 +526,7 @@
     <MESSAGE value="Week 4" />
     <MESSAGE value="Week 5" />
     <MESSAGE value="Changes by willi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by willi" />
+    <MESSAGE value="lab 4i" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 4i" />
   </component>
 </project>

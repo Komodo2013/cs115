@@ -2,11 +2,11 @@
  *File:lab 5a
  * Description:
  * Lessons Learned:
- *   overrides and UI
+ *   Interfaces
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * @since: 12 Oct 2022
+ * since: 17 Oct 2022
  */
 
 package us.larsennet.school.week3;
@@ -36,6 +36,7 @@ public class Cookie extends DessertItem{
         super(name);
         this.cookieQty = quantity;
         this.pricePerCookie = pricePerCookie;
+        super.setPackaging("Box");
     }
 
     public int getCookieQty() {

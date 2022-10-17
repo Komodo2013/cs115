@@ -52,4 +52,11 @@ class CandyTest {
         Candy t = new Candy("", 1.2, .5);
         assertEquals(0.6, t.getPrice());
     }
+
+
+    @Test
+    void getPackaging() {
+        Candy m = new Candy();
+        assertEquals("Bag", m.getPackaging());
+    }
 }
