@@ -1,6 +1,6 @@
 /*
  *File:lab 5a
- * Description:
+ * Description: Interfaces
  * Lessons Learned:
  *   Interfaces
  * Instructor's Name: Barbara Chamberlin
@@ -21,15 +21,17 @@ public class Cookie extends DessertItem{
     }
 
     public String toString(){
-        return String.format("%s\n\t%-45s$%3.2f\t[Tax: $%2.2f]", this.getName(),
+        return String.format("%s\n\t%-45s$%3.2f\t[Tax: $%2.2f]", this.getName() + " (" + this.getPackaging() + ")",
                 String.format("%4d @ $%3.2f", this.getCookieQty(), this.getPricePerCookie()),
                 this.getPrice(), this.getTax());
+
     }
 
     public Cookie() {
         super("Cookie");
         this.cookieQty = 0;
         this.pricePerCookie = 9.99;
+        super.setPackaging("Box");
     }
 
     public Cookie(String name, int quantity, double pricePerCookie) {

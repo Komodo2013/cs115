@@ -1,6 +1,6 @@
 /*
  *File:lab 5a
- * Description:
+ * Description: Interfaces
  * Lessons Learned:
  *   Interfaces
  * Instructor's Name: Barbara Chamberlin

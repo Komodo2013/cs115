@@ -1,6 +1,6 @@
 /*
  *File:lab 5a
- * Description:
+ * Description: Interfaces
  * Lessons Learned:
  *   Interfaces
  * Instructor's Name: Barbara Chamberlin
@@ -24,7 +24,7 @@ public class IceCream extends DessertItem{
     }
 
     public String toString(){
-        return String.format("%s\n\t%-45s$%3.2f\t[Tax: $%2.2f]", this.getName(),
+        return String.format("%s\n\t%-45s$%3.2f\t[Tax: $%2.2f]", this.getName() + " (" + this.getPackaging() + ")",
                 String.format("%4d @ $%3.2f", this.getScoops(), this.getPricePerScoop()),
                 this.getPrice(), this.getTax());
     }
@@ -38,6 +38,7 @@ public class IceCream extends DessertItem{
         super("IceCream");
         this.scoops = scoops = 0;
         this.pricePerScoop = 4.99;
+        super.setPackaging("Bowl");
     }
 
     public void setScoops(int scoops) {

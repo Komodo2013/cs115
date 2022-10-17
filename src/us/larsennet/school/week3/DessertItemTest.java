@@ -32,4 +32,17 @@ class DessertItemTest {
         DessertItem t = new Candy("Testing", 1.0, 1.0);
         assertEquals(t.getName(), "Testing");
     }
+
+    @Test
+    void getPackaging() {
+        Cookie m = new Cookie();
+        assertEquals("Box", m.getPackaging());
+    }
+
+    @Test
+    void setPackaging() {
+        Cookie m = new Cookie();
+        m.setPackaging("Box");
+        assertEquals("Box", m.getPackaging());
+    }
 }

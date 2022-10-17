@@ -29,6 +29,8 @@ public class DessertShop {
         String choice;
         DessertItem orderItem;
 
+        // Interface
+
         boolean done = false;
         while (!done) {
             System.out.println("\n1: Candy");

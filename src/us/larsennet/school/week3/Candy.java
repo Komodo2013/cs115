@@ -1,6 +1,6 @@
 /*
  *File:lab 5a
- * Description:
+ * Description:Interfaces
  * Lessons Learned:
  *   Interfaces
  * Instructor's Name: Barbara Chamberlin
@@ -23,7 +23,7 @@ public class Candy extends DessertItem implements Packaging{
     }
 
     public String toString(){
-        return String.format("%s\n\t%-45s$%3.2f\t[Tax: $%2.2f]", this.getName(),
+        return String.format("%s\n\t%-45s$%3.2f\t[Tax: $%2.2f]", this.getName() + " (" + this.getPackaging() + ")",
                 String.format("%2.2f lbs @ $%3.2f/lbs", this.getCandyWeight(), this.getPricePerLb()),
                 this.getPrice(), this.getTax());
     }

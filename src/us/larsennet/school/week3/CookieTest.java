@@ -51,4 +51,6 @@ class CookieTest {
         Cookie t = new Cookie("", 3, .5);
         assertEquals(1.5, t.getPrice());
     }
+
+
 }
