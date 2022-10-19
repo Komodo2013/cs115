@@ -1,6 +1,6 @@
 /*
  *File:lab 5a
- * Description:
+ * Description: Create an Interface, Implement an Interface in a class, Use an enum.
  * Lessons Learned:
  *   Interfaces
  * Instructor's Name: Barbara Chamberlin

@@ -15,6 +15,9 @@ import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class DessertShop {
+
+    private String paymentMethod;
+
     public static void main(String[] args){
         Order o = new Order();
 
