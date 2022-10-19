@@ -13,11 +13,13 @@ package us.larsennet.school.week3;
 
 import java.util.ArrayList;
 
-public class Order {
+public class Order implements Payable{
     ArrayList<DessertItem> order;
+    Payable.TYPES payType;
 
     public Order() {
         this.order = new ArrayList<>();
+        this.payType = TYPES.CASH;
     }
 
     public String toString(){
@@ -34,6 +36,8 @@ public class Order {
         out += String.format("%-49s$%3.2f\n", "Order Total: ", getPrice() + getTax());
 
         out += "-----------------------------------------------------------------------\n";
+
+        out += String.format("Paid for with %s", payType);
 
         return out;
     }
@@ -64,5 +68,15 @@ public class Order {
 
     public void addItem(DessertItem i){
         order.add(i);
+    }
+
+    @Override
+    public TYPES getPayType() {
+        return payType;
+    }
+
+    @Override
+    public void setPayType(TYPES t) {
+        payType = t;
     }
 }

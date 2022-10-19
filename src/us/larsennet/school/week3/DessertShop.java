@@ -11,6 +11,7 @@
 
 package us.larsennet.school.week3;
 
+import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class DessertShop {
@@ -28,8 +29,6 @@ public class DessertShop {
         Scanner sIn = new Scanner(System.in);
         String choice;
         DessertItem orderItem;
-
-        // Interface
 
         boolean done = false;
         while (!done) {
@@ -69,6 +68,30 @@ public class DessertShop {
                 }//end of switch (choice)
             }//end of if (choice.equals(""))
         }//end of while (!done)
+
+        String out = "What form of payment will be used to pay for your items? (";
+        for (Payable.TYPES type : Payable.TYPES.values()) {
+            out += type + ", ";
+        }
+        System.out.println(out.substring(0, out.length() - 2) + ")\n");
+
+        boolean isValid = false;
+
+        while(!isValid) {
+            String paymentMethod = sIn.nextLine();
+
+            for (Payable.TYPES type : Payable.TYPES.values()) {
+                if (type.name().equals(paymentMethod)) {
+                    isValid = true;
+                    break;
+                }
+            }
+
+            if(isValid){
+                
+            }
+
+        }
 
         System.out.print(o.toString());
 
@@ -181,3 +204,5 @@ public class DessertShop {
         }
     }
 }
+
+
