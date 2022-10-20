@@ -1,12 +1,13 @@
 /*
- *File:lab 5a
+ *File:lab 6a
  * Description:
  * Lessons Learned:
  *   Interfaces
+ *   Enums
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 17 Oct 2022
+ * since: 19 Oct 2022
  */
 
 package us.larsennet.school.week3;

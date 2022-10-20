@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="lab 5a">
+    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="lab 6a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Order.java" afterDir="false" />
     </list>
-    <list id="2dfe078e-880e-4c78-8a7b-d33c5c895889" name="Changes by willi" comment="">
-      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Payable.java" afterDir="false" />
+    <list id="2dfe078e-880e-4c78-8a7b-d33c5c895889" name="Changes by willi" comment="Changes by willi">
       <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Packaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Packaging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Payable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Payable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +29,13 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java">
       <ranges>
-        <range start1="13" end1="13" start2="13" end2="14" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
-        <range start1="16" end1="16" start2="17" end2="20" changelist="2dfe078e-880e-4c78-8a7b-d33c5c895889" />
-        <range start1="31" end1="33" start2="35" end2="35" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
-        <range start1="72" end1="72" start2="74" end2="98" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
-        <range start1="183" end1="183" start2="209" end2="211" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="1" end1="2" start2="1" end2="2" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="5" end1="5" start2="5" end2="6" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="8" end1="9" start2="9" end2="10" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="81" end1="81" start2="82" end2="83" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="88" end1="89" start2="90" end2="91" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="92" end1="96" start2="94" end2="95" changelist="2dfe078e-880e-4c78-8a7b-d33c5c895889" />
+        <range start1="97" end1="97" start2="96" end2="97" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
       </ranges>
     </file>
   </component>
@@ -161,8 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DessertItemTest" />
         <item itemvalue="Application.DessertShop" />
+        <item itemvalue="JUnit.DessertItemTest" />
         <item itemvalue="JUnit.ResidentialTest" />
         <item itemvalue="JUnit.PropertyTest" />
         <item itemvalue="JUnit.HouseTest" />
@@ -451,7 +451,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666025435941</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="lab 6a">
+      <created>1666198622786</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1666198622786</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Changes by willi">
+      <created>1666198633537</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1666198633537</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,6 +496,7 @@
     <MESSAGE value="Week 5" />
     <MESSAGE value="lab 4i" />
     <MESSAGE value="lab 5a" />
+    <MESSAGE value="lab 6a" />
     <MESSAGE value="Changes by willi" />
     <option name="LAST_COMMIT_MESSAGE" value="Changes by willi" />
   </component>

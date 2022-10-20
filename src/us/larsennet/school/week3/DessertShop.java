@@ -1,12 +1,13 @@
 /*
- *File:lab 5a
+ *File:lab 6a
  * Description:
  * Lessons Learned:
  *   Interfaces
+ *   Enums
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 17 Oct 2022
+ * since: 19 Oct 2022
  */
 
 package us.larsennet.school.week3;
@@ -79,6 +80,7 @@ public class DessertShop {
         System.out.println(out.substring(0, out.length() - 2) + ")\n");
 
         boolean isValid = false;
+        Payable.TYPES types = Payable.TYPES.CASH;
 
         while(!isValid) {
             String paymentMethod = sIn.nextLine();
@@ -86,7 +88,7 @@ public class DessertShop {
             for (Payable.TYPES type : Payable.TYPES.values()) {
                 if (type.name().equals(paymentMethod)) {
                     isValid = true;
-                    break;
+                    types = type;
                 }
             }
 
@@ -95,6 +97,7 @@ public class DessertShop {
             }
 
         }
+        o.payType = types;
 
         System.out.print(o.toString());
 
