@@ -92,10 +92,7 @@ public class DessertShop {
                 }
             }
 
-            if(isValid){
-                
-            }
-
+            System.out.println("Please choose a valid payment method");
         }
         o.payType = types;
 
