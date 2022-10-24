@@ -1,22 +1,31 @@
 /*
- *File:lab 5a
- * Description: Interfaces
+ *File:lab 6b
+ * Description: Use an existing Java library Interface
+Implement the Comparable interface in a class you create
+Sort an array of objects using the data members of a class
  * Lessons Learned:
- *   Interfaces
+ *   Comparable
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 17 Oct 2022
+ * since: 24 Oct 2022
  */
 
 package us.larsennet.school.week3;
 
 
-abstract class DessertItem implements Packaging{
+import org.testng.internal.collections.Pair;
+
+abstract class DessertItem implements Packaging, Comparable<DessertItem>{
     //Attributes
     private String name;
     private double taxRate = 0.0725;
     private String packaging;
+
+    @Override
+    public int compareTo(DessertItem item) {
+        return Double.compare(this.getPrice(), item.getPrice());
+    }
 
     @Override
     public String getPackaging() {

@@ -1,13 +1,14 @@
 /*
- *File:lab 6a
- * Description:
+ *File:lab 6b
+ * Description: Use an existing Java library Interface
+Implement the Comparable interface in a class you create
+Sort an array of objects using the data members of a class
  * Lessons Learned:
- *   Interfaces
- *   Enums
+ *   Comparable
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 19 Oct 2022
+ * since: 24 Oct 2022
  */
 
 package us.larsennet.school.week3;
@@ -95,6 +96,8 @@ public class DessertShop {
             System.out.println("Please choose a valid payment method");
         }
         o.payType = types;
+
+        o.getOrder().sort(DessertItem::compareTo);
 
         System.out.print(o.toString());
 

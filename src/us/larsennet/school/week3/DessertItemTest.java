@@ -1,12 +1,14 @@
 /*
- *File:lab 5a
- * Description:
+ *File:lab 6b
+ * Description: Use an existing Java library Interface
+Implement the Comparable interface in a class you create
+Sort an array of objects using the data members of a class
  * Lessons Learned:
- *   Interfaces
+ *   Comparable
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 17 Oct 2022
+ * since: 24 Oct 2022
  */
 
 package us.larsennet.school.week3;

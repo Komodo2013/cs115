@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="lab 6a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" afterDir="false" />
     </list>
-    <list id="2dfe078e-880e-4c78-8a7b-d33c5c895889" name="Changes by willi" comment="Changes by willi">
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Payable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Payable.java" afterDir="false" />
+    <list id="ada50868-3337-443b-956d-56b6ce9bba31" name="Changes by oshan" comment="" />
+    <list id="bd1b57ee-aae4-4e77-8479-1ff6f8853533" name="Changes by willi" comment="">
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,15 +29,12 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java">
+    <file path="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItemTest.java">
       <ranges>
-        <range start1="1" end1="2" start2="1" end2="2" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
-        <range start1="5" end1="5" start2="5" end2="6" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
-        <range start1="8" end1="9" start2="9" end2="10" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
-        <range start1="81" end1="81" start2="82" end2="83" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
-        <range start1="88" end1="89" start2="90" end2="91" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
-        <range start1="92" end1="96" start2="94" end2="95" changelist="2dfe078e-880e-4c78-8a7b-d33c5c895889" />
-        <range start1="97" end1="97" start2="96" end2="97" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="1" end1="3" start2="1" end2="5" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="4" end1="5" start2="6" end2="7" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="8" end1="9" start2="10" end2="11" changelist="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" />
+        <range start1="17" end1="17" start2="19" end2="44" changelist="bd1b57ee-aae4-4e77-8479-1ff6f8853533" />
       </ranges>
     </file>
   </component>
@@ -85,7 +84,7 @@
       <recent name="us.larsennet.school.week3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DessertShop">
+  <component name="RunManager" selected="JUnit.DessertItemTest">
     <configuration name="DessertShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="us.larsennet.school.week3.DessertShop" />
       <module name="cs115" />
@@ -161,8 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DessertShop" />
         <item itemvalue="JUnit.DessertItemTest" />
+        <item itemvalue="Application.DessertShop" />
         <item itemvalue="JUnit.ResidentialTest" />
         <item itemvalue="JUnit.PropertyTest" />
         <item itemvalue="JUnit.HouseTest" />
@@ -465,7 +464,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666198633537</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="lab 6a">
+      <created>1666242397263</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1666242397263</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Changes by willi">
+      <created>1666242422970</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1666242422970</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
