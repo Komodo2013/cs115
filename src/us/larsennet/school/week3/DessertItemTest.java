@@ -19,6 +19,31 @@ import static org.junit.jupiter.api.Assertions.*;
 class DessertItemTest {
 
     @Test
+    void DessertItem() {
+        DessertItem i1 = new Cookie("", 1, .75);
+        DessertItem i2 = new Cookie("", 1, .33);
+
+        assertEquals(1, i1.compareTo(i2));
+    }
+
+    @Test
+    void DessertItem1() {
+        DessertItem i1 = new Cookie("", 1, .33);
+        DessertItem i2 = new Cookie("", 1, .75);
+
+        assertEquals(-1, i1.compareTo(i2));
+    }
+
+    @Test
+    void DessertItem2() {
+        DessertItem i1 = new Cookie("", 1, .75);
+        DessertItem i2 = new Cookie("", 1, .75);
+
+        assertEquals(0, i1.compareTo(i2));
+    }
+
+
+    @Test
     void setName() {
         DessertItem t = new Candy(); // candy used since DessertItem is abstract
         t.setName("Testing");
