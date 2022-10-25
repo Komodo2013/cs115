@@ -1,22 +1,26 @@
 /*
- *File:lab 5a
- * Description:Interfaces
+ *File:lab 7a
+ * Description:
  * Lessons Learned:
- *   Interfaces
+ *   instancing
+ *   casting
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 17 Oct 2022
+ * since: 25 Oct 2022
  */
-
-//Testing
-//testing
 
 package us.larsennet.school.week3;
 
 public class Candy extends DessertItem implements Packaging{
     private double candyWeight;
     private double pricePerLb;
+
+    @Override
+    public boolean isSameAs(DessertItem T){
+        return T instanceof Candy && T.getName().equals(this.getName()) &&
+                ((Candy) T).getPricePerLb() == this.getPricePerLb();
+    }
 
     public Candy(String name, double candyWeight, double pricePerLb) {
         super(name);

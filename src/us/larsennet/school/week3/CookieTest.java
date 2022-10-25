@@ -1,12 +1,13 @@
 /*
- *File:lab 5a
+ *File:lab 7a
  * Description:
  * Lessons Learned:
- *   Interfaces
+ *   instancing
+ *   casting
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 17 Oct 2022
+ * since: 25 Oct 2022
  */
 
 package us.larsennet.school.week3;

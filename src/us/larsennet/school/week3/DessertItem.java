@@ -16,11 +16,16 @@ package us.larsennet.school.week3;
 
 import org.testng.internal.collections.Pair;
 
-abstract class DessertItem implements Packaging, Comparable<DessertItem>{
+abstract class DessertItem implements Packaging, Comparable<DessertItem>, SameAs{
     //Attributes
     private String name;
     private double taxRate = 0.0725;
     private String packaging;
+
+    @Override
+    public boolean isSameAs(DessertItem T){
+        return false;
+    }
 
     @Override
     public int compareTo(DessertItem item) {

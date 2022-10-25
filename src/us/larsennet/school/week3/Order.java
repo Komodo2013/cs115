@@ -1,13 +1,13 @@
 /*
- *File:lab 6a
+ *File:lab 7a
  * Description:
  * Lessons Learned:
- *   Interfaces
- *   Enums
+ *   instancing
+ *   casting
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 19 Oct 2022
+ * since: 25 Oct 2022
  */
 
 package us.larsennet.school.week3;
@@ -67,8 +67,27 @@ public class Order implements Payable{
         return order.size();
     }
 
-    public void addItem(DessertItem i){
-        order.add(i);
+    public void addItem(DessertItem item){
+        if(item instanceof Candy) {
+            for (DessertItem dessertItem : order) {
+                if(dessertItem.isSameAs(item)) {
+                    ((Candy) dessertItem).setCandyWeight(
+                            ((Candy) dessertItem).getCandyWeight() + ((Candy) item).getCandyWeight());
+                }
+            }
+        } else if(item instanceof Cookie) {
+            for (DessertItem dessertItem : order) {
+                if(dessertItem.isSameAs(item)) {
+                    ((Cookie) dessertItem).setCookieQty(
+                            ((Cookie) dessertItem).getCookieQty() + ((Cookie) item).getCookieQty());
+                }
+            }
+        }
+
+
+
+
+        order.add(item);
     }
 
     @Override

@@ -1,12 +1,13 @@
 /*
- *File:lab 4a and b
+ *File:lab 7a
  * Description:
  * Lessons Learned:
- *   overrides and UI
+ *   instancing
+ *   casting
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 5 Oct 2022
+ * since: 25 Oct 2022
  */
 
 package us.larsennet.school.week3;
