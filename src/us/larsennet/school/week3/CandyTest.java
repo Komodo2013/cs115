@@ -60,4 +60,14 @@ class CandyTest {
         Candy m = new Candy();
         assertEquals("Bag", m.getPackaging());
     }
+    @Test
+    void isSameAs() {
+        Candy c = new Candy("", 0, 0);
+        Candy other = new Candy("", 0, 0);
+        assertEquals(true, c.isSameAs(other));
+
+         c = new Candy("", 0, 0);
+         other = new Candy("",0 , 0);
+        assertEquals(false, c.isSameAs(other));
+    }
 }

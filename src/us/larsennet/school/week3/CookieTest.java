@@ -52,6 +52,19 @@ class CookieTest {
         Cookie t = new Cookie("", 3, .5);
         assertEquals(1.5, t.getPrice());
     }
+    @Test
+    void testIsSameAs() {
+        Cookie c = new Cookie("", 0, 0);
+        Cookie other = new Cookie("", 0, 0);
+        assertEquals(true, c.isSameAs(other));
+    }
+
+    @Test
+    void testisSameAs() {
+        Cookie c = new Cookie("", 0, 0);
+        Cookie other = new Cookie("", 0, 0);
+        assertEquals(false, c.isSameAs(other));
+    }
 
 
 }
