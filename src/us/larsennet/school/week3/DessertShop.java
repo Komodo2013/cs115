@@ -1,14 +1,13 @@
 /*
- *File:lab 6b
- * Description: Use an existing Java library Interface
-Implement the Comparable interface in a class you create
-Sort an array of objects using the data members of a class
+ *File:lab 7b
+ * Description: Static Fields
+ * use a static field to share a value across objects
  * Lessons Learned:
- *   Comparable
+ *   Static fields
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 24 Oct 2022
+ * since: 31 Oct 2022
  */
 
 package us.larsennet.school.week3;

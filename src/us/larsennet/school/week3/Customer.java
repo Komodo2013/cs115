@@ -1,3 +1,15 @@
+/*
+ *File:lab 7b
+ * Description: Static Fields
+ * use a static field to share a value across objects
+ * Lessons Learned:
+ *   Static fields
+ * Instructor's Name: Barbara Chamberlin
+ *
+ * @author: William Spencer, Jacob Larsen, Oshane Stewart
+ * since: 31 Oct 2022
+ */
+
 package us.larsennet.school.week3;
 
 import java.util.ArrayList;
@@ -12,7 +24,14 @@ public class Customer {
 
     // Constructor
     public Customer(String custName) {
-        name = custName;
+        setName(custName);
+        orderHistory = new ArrayList<>();
+        custID = nextCustID;
+        nextCustID++;
+    }
+
+    public Customer(){
+        setName("");
         orderHistory = new ArrayList<>();
         custID = nextCustID;
         nextCustID++;
