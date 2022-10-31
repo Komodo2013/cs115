@@ -14,7 +14,7 @@ package us.larsennet.school.week3;
 
 import java.util.PriorityQueue;
 import java.util.Scanner;
-
+import java.util.HashMap;
 public class DessertShop {
 
     private String paymentMethod;
@@ -213,6 +213,8 @@ public class DessertShop {
             }
         }
     }
+    // Create a HashMap object called capitalCities
+    HashMap<String, String> name = new HashMap<String, String>();
 }
 
 
