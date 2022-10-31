@@ -66,8 +66,5 @@ class CandyTest {
         Candy other = new Candy("", 0, 0);
         assertEquals(true, c.isSameAs(other));
 
-         c = new Candy("", 0, 0);
-         other = new Candy("",0 , 0);
-        assertEquals(false, c.isSameAs(other));
     }
 }

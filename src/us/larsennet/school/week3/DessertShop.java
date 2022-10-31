@@ -77,6 +77,22 @@ public class DessertShop {
                 }//end of if (choice.equals(""))
             }//end of while (!done)
 
+            System.out.print("Customer Name \t > ");
+            String name = sIn.nextLine();
+            int id;
+            int total_orders;
+
+
+            if("".equals(name)){
+                name = "Unknown Customer";
+                id = 0;
+                total_orders = 0;
+            } else {
+                id = 1;
+                total_orders = 1;
+            }
+
+
 
             String out = "What form of payment will be used to pay for your items? (";
             for (Payable.TYPES type : Payable.TYPES.values()) {
@@ -104,6 +120,8 @@ public class DessertShop {
             o.getOrder().sort(DessertItem::compareTo);
 
             System.out.print(o.toString());
+
+            System.out.printf("Customer Name: %s\t Customer ID: Total Orders: \n", name);
         }
     }
 
