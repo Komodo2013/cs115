@@ -213,7 +213,7 @@ public class DessertShop {
             }
         }
     }
-    // Create a HashMap object called capitalCities
+    //HashMap object called name
     HashMap<String, String> name = new HashMap<String, String>();
 }
 
