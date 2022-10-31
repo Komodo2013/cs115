@@ -38,7 +38,9 @@ public class Order implements Payable{
 
         out += "-----------------------------------------------------------------------\n";
 
-        out += String.format("Paid for with %s", payType);
+        out += String.format("Paid for with %s\n", payType);
+
+        out += "------------------------------------------------------------------------\n";
 
         return out;
     }
