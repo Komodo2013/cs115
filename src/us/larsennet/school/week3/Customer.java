@@ -8,7 +8,7 @@ public class Customer {
     private String name;
     private ArrayList<Order> orderHistory;
     private int custID;
-    private static int nextCustID = 0;
+    private static int nextCustID = 1000;
 
     // Constructor
     public Customer(String custName) {
@@ -32,7 +32,11 @@ public class Customer {
     }
 
     public void setName(String n) {
-        this.name = n;
+        if(!"".equals(n)) {
+            this.name = n;
+        } else {
+            this.name = "Default Name";
+        }
     }
 
     public void addToHistory(Order o) {

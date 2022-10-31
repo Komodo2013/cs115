@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="lab 6b">
-      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/SameAs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="lab 7a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Candy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Cookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Cookie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" afterDir="false" />
+    </list>
+    <list id="35b0e738-af87-47a7-b3a7-b1cc34dbf4b3" name="Changes by willi" comment="">
+      <change afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/CustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -482,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666628033159</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="lab 7a">
+      <created>1666710094854</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1666710094854</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,6 +522,7 @@
     <MESSAGE value="lab 6a" />
     <MESSAGE value="lab 6b" />
     <MESSAGE value="Changes by willi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by willi" />
+    <MESSAGE value="lab 7a" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 7a" />
   </component>
 </project>
