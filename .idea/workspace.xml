@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="lab 7b">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/CandyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/CandyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" afterDir="false" />
-    </list>
-    <list id="cd1b9d8c-0517-4bec-8044-646c0c47731b" name="Changes by willi" comment="">
-      <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,20 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662996331121</updated>
-    </task>
-    <task id="LOCAL-00001" summary="cs115 upload">
-      <created>1663001390635</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1663001390635</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Lab2a">
-      <created>1663767261696</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1663767261696</updated>
     </task>
     <task id="LOCAL-00003" summary="Lab2a">
       <created>1663767731168</created>
@@ -509,7 +491,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667231466938</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="lab 7b">
+      <created>1667242851682</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1667242851682</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Changes by willi">
+      <created>1667242862119</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1667242862119</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -543,8 +539,8 @@
     <MESSAGE value="lab 6a" />
     <MESSAGE value="lab 6b" />
     <MESSAGE value="lab 7a" />
-    <MESSAGE value="Changes by willi" />
     <MESSAGE value="lab 7b" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab 7b" />
+    <MESSAGE value="Changes by willi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by willi" />
   </component>
 </project>

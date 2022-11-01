@@ -1,9 +1,9 @@
 /*
- *File:lab 7b
- * Description: Static Fields
- * use a static field to share a value across objects
+ *File:lab 8a
+ * Description: Hash Maps
+ * Using hash maps to store data
  * Lessons Learned:
- *   Static fields
+ *   Hash maps
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
@@ -12,10 +12,12 @@
 
 package us.larsennet.school.week3;
 
-import java.util.PriorityQueue;
 import java.util.Scanner;
 import java.util.HashMap;
 public class DessertShop {
+
+    //HashMap object called name
+    static HashMap<String, Customer> db = new HashMap<>();
 
     private String paymentMethod;
     private static final boolean DEBUG = true;
@@ -79,17 +81,20 @@ public class DessertShop {
 
             System.out.print("Customer Name \t > ");
             String name = sIn.nextLine();
-            int id;
-            int total_orders;
 
+            //default values
+            int id = 0;
+            int total_orders = 1;
 
-            if("".equals(name)){
+            if("".equals(name)){// No customer name was inputted
                 name = "Unknown Customer";
-                id = 0;
-                total_orders = 0;
             } else {
-                id = 1;
-                total_orders = 1;
+                if(!db.containsKey(name)) {
+                    db.put(name, new Customer(name));
+                }
+                id = db.get(name).getID();
+                db.get(name).addToHistory(o);
+                total_orders = db.get(name).getOrderHistory().size();
             }
 
 
@@ -121,7 +126,7 @@ public class DessertShop {
 
             System.out.print(o.toString());
 
-            System.out.printf("Customer Name: %s\t Customer ID: Total Orders: \n", name);
+            System.out.printf("Customer Name: %s\t Customer ID: %d\t Total Orders: %d\n", name, id, total_orders);
         }
     }
 
@@ -231,8 +236,7 @@ public class DessertShop {
             }
         }
     }
-    //HashMap object called name
-    HashMap<String, String> name = new HashMap<String, String>();
+
 }
 
 
