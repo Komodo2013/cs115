@@ -173,11 +173,14 @@ public class DessertShop {
         //display a banner exclaiming who the best customer is based on the number of orders each customer as made as shown in the Example Run.
        ArrayList<Customer> custList = (ArrayList<Customer>) db.values();
        // db.values();
-        for (Customer c: custList             ) {
-            for (c.getOrderHistory)
+        Customer topCustomer = custList.get(0);
+        for (Customer c : db.values()) {
+            if (c.getOrderHistory().size() > topCustomer.getOrderHistory().size())
+                topCustomer = c;
         }
-
-
+        System.out.println("---------------------------------------------------------------\n"
+                + "The Dessert Shop's most common customer(Top Customer) is: " + topCustomer.getName()
+                + "\n---------------------------------------------------------------");
 
 
         return null;
