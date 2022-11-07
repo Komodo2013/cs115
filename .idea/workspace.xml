@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="lab 7b">
+    <list default="true" id="ddea2fef-c3ae-41d8-a6b8-a7df16117ca4" name="Changes" comment="lab 8a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/us/larsennet/school/week3/DessertShop.java" afterDir="false" />
     </list>
@@ -161,13 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662996331121</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Lab2a">
-      <created>1663767731168</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1663767731168</updated>
     </task>
     <task id="LOCAL-00004" summary="Lab2b create">
       <created>1663774254532</created>
@@ -505,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667242862119</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="lab 8a">
+      <created>1667281709230</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1667281709230</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -541,6 +541,7 @@
     <MESSAGE value="lab 7a" />
     <MESSAGE value="lab 7b" />
     <MESSAGE value="Changes by willi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by willi" />
+    <MESSAGE value="lab 8a" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 8a" />
   </component>
 </project>

@@ -12,6 +12,8 @@
 
 package us.larsennet.school.week3;
 
+import java.util.ArrayList;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.HashMap;
 public class DessertShop {
@@ -46,8 +48,10 @@ public class DessertShop {
                 System.out.println("2: Cookie");
                 System.out.println("3: Ice Cream");
                 System.out.println("4: Sunday");
+                System.out.println("5: Admin Module");
 
-                System.out.print("\nWhat would you like to add to the order? (1-4, Enter for done): ");
+
+                System.out.print("\nWhat would you like to add to the order? (1-5, Enter for done): ");
                 choice = sIn.nextLine();
 
                 if (choice.equals("")) {
@@ -73,6 +77,9 @@ public class DessertShop {
                             orderItem = userPromptSundae();
                             o.addItem(orderItem);
                             System.out.printf("%n%s has been added to your order.%n", orderItem.getName());
+                        }
+                        case "5" -> {
+                            AdminModule(sIn);
                         }
                         default -> System.out.println("Invalid response:  Please enter a choice from the menu (1-4)");
                     }//end of switch (choice)
@@ -130,6 +137,82 @@ public class DessertShop {
         }
     }
 
+    private static void AdminModule(Scanner sc){
+        while (true) {
+            System.out.println("\n1: Shop Customer List");
+            System.out.println("2: Customer Order History");
+            System.out.println("3: Best Customer");
+            System.out.println("4: Exit Admin Module");
+
+            System.out.print("\nWhat would you like to do? (1-4):");
+            String choice = sc.nextLine();
+
+            if (choice.equals("")) {
+                return;
+            } else {
+                switch (choice) {
+                    case "1" -> {
+                        printAllCustomers();
+                    }
+                    case "2" -> {
+                        printAllCustomerOrders(sc);
+                    }
+                    case "3" -> {
+                        System.out.printf("The customer with the most purchases is: %s", getMostCommonCustomer());
+                    }
+                    case "4" -> {
+                        return;
+                    }
+                    default -> System.out.println("Invalid response:  Please enter a choice from the menu (1-4)");
+                }//end of switch (choice)
+            }//end of if (choice.equals(""))
+        }//end of while (!done)
+    }
+
+    private static String getMostCommonCustomer() {
+        //display a banner exclaiming who the best customer is based on the number of orders each customer as made as shown in the Example Run.
+       ArrayList<Customer> custList = (ArrayList<Customer>) db.values();
+       // db.values();
+        for (Customer c: custList             ) {
+            for (c.getOrderHistory)
+        }
+
+
+
+
+        return null;
+    }
+
+    private static void printAllCustomerOrders(Scanner sc) {
+        //ask the user for a customer name and then print out all orders (receipts) for that customer as shown in the example run.
+        Customer c;
+        int i = 0;
+
+        StringBuilder table = new StringBuilder();
+
+        for(Map.Entry<String, Customer> e: db.entrySet()){
+            i++;
+            table.append(String.format("%-20s\t ", e.getKey())).append((i % 5 == 0) ? "\n" : "");
+        }
+
+        while(true){
+            System.out.println(table.toString());
+            String cus = sc.nextLine();
+
+            if(!"".equals(cus) && db.containsKey(cus)){
+                c = db.get(cus);
+                break;
+            }
+        }
+
+        c.getOrderHistory().forEach(order -> System.out.println(order.toString()));
+    }
+
+    private static void printAllCustomers() {
+        //show a listing of all Dessert Shop customers and their Customer IDs in a nice format as shown in the Example Run.
+        db.forEach((key, value) ->
+                System.out.println("Customer: " + value.getName() + "Customer ID: " + value.getID()));
+    }
 
     private static DessertItem userPromptSundae() {
         Scanner sc = new Scanner(System.in);
