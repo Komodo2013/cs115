@@ -1,18 +1,17 @@
 /*
- *File:lab 8a
- * Description: Hash Maps
- * Using hash maps to store data
+ *File:lab 8b
+ * Description: Admin Module
+ * accessing hashmaps
  * Lessons Learned:
  *   Hash maps
  * Instructor's Name: Barbara Chamberlin
  *
  * @author: William Spencer, Jacob Larsen, Oshane Stewart
- * since: 31 Oct 2022
+ * since: 07 Nov 2022
  */
 
 package us.larsennet.school.week3;
 
-import java.util.ArrayList;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.HashMap;
@@ -138,6 +137,8 @@ public class DessertShop {
     }
 
     private static void AdminModule(Scanner sc){
+
+        // This is a copy-paste of the above menu system
         while (true) {
             System.out.println("\n1: Shop Customer List");
             System.out.println("2: Customer Order History");
@@ -170,24 +171,22 @@ public class DessertShop {
     }
 
     private static String getMostCommonCustomer() {
-        //display a banner exclaiming who the best customer is based on the number of orders each customer as made as shown in the Example Run.
-       ArrayList<Customer> custList = (ArrayList<Customer>) db.values();
-       // db.values();
-        for (Customer c: custList             ) {
-            for (c.getOrderHistory)
+        // Customer to compare against
+        Customer most = new Customer();
+
+        for(Map.Entry<String, Customer> c: db.entrySet()){
+            // if the one we are looking at has more orders, set it as most
+            most = c.getValue().getOrderHistory().size() > most.getOrderHistory().size() ? c.getValue() : most;
         }
 
-
-
-
-        return null;
+        return most.getName(); // This also works as a key
     }
 
     private static void printAllCustomerOrders(Scanner sc) {
-        //ask the user for a customer name and then print out all orders (receipts) for that customer as shown in the example run.
         Customer c;
-        int i = 0;
 
+        // Printing a list of all customers
+        int i = 0;
         StringBuilder table = new StringBuilder();
 
         for(Map.Entry<String, Customer> e: db.entrySet()){
@@ -195,6 +194,7 @@ public class DessertShop {
             table.append(String.format("%-20s\t ", e.getKey())).append((i % 5 == 0) ? "\n" : "");
         }
 
+        // Execute until we get a valid customer
         while(true){
             System.out.println(table.toString());
             String cus = sc.nextLine();
@@ -205,13 +205,14 @@ public class DessertShop {
             }
         }
 
+        // print each order to terminal
         c.getOrderHistory().forEach(order -> System.out.println(order.toString()));
     }
 
     private static void printAllCustomers() {
         //show a listing of all Dessert Shop customers and their Customer IDs in a nice format as shown in the Example Run.
         db.forEach((key, value) ->
-                System.out.println("Customer: " + value.getName() + "Customer ID: " + value.getID()));
+                System.out.println("Customer: " + value.getName() + "\t Customer ID: " + value.getID()));
     }
 
     private static DessertItem userPromptSundae() {
